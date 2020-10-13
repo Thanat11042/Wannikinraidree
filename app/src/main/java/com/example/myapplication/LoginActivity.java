@@ -1,5 +1,6 @@
 package com.example.myapplication;
 package com.devahoy.sample.login;
+
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,13 +11,18 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class LoginActivity extends ActionBarActivity {
-    private Button mLogin;
-    private EditText mUsername;
-    private EditText mPassword;
-    private TextView mRegister;
-    private Context mContext;
+
+    private UserManager mManager;
+    //private Button mLogin;
+    //private EditText mUsername;
+    //private EditText mPassword;
+    //private TextView mRegister;
+    //private Context mContext;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        mManager = new UserManager(this);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         mContext = this;
@@ -39,5 +45,15 @@ public class LoginActivity extends ActionBarActivity {
         });
     }
     private void checkLogin() {
+        String username = mUsername.getText().toString().trim().toLowerCase();
+        String password = mPassword.getText().toString().trim();
+        boolean isSuccess = mManager.checkLoginValidate(username, password);
+        if (isSuccess) {
+            Intent intent = new Intent(mContext, MainActivity.class);
+            startActivity(intent);
+        } else {
+            String message = getString(R.string.login_error_message);
+            Toast.makeText(mContext, message, Toast.LENGTH_SHORT).show();
+        }
     }
 }

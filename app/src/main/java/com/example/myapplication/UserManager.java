@@ -1,5 +1,4 @@
 package com.example.myapplication;
-package com.devahoy.sample.login;
 
 import android.content.Context;
 import android.content.SharedPreferences;
