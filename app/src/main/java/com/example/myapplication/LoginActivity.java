@@ -1,6 +1,5 @@
+package com.example.myapplication;
 package com.devahoy.sample.login;
-
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
 public class LoginActivity extends ActionBarActivity {
     private Button mLogin;
     private EditText mUsername;
