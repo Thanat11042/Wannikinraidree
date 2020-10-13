@@ -1,4 +1,5 @@
 package com.example.myapplication;
+
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +11,8 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class LoginActivity extends AppCompatActivity {
+
+    private UserManager mManager;
     private Button mLogin;
     private EditText mUsername;
     private EditText mPassword;
@@ -18,6 +21,9 @@ public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        mManager = new UserManager(this);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         mContext = this;
@@ -40,5 +46,15 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
     private void checkLogin() {
+        String username = mUsername.getText().toString().trim().toLowerCase();
+        String password = mPassword.getText().toString().trim();
+        boolean isSuccess = mManager.checkLoginValidate(username, password);
+        if (isSuccess) {
+            Intent intent = new Intent(mContext, MainActivity.class);
+            startActivity(intent);
+        } else {
+            String message = getString(R.string.login_error_message);
+            Toast.makeText(mContext, message, Toast.LENGTH_SHORT).show();
+        }
     }
 }
