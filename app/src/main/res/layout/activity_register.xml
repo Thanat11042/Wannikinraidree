@@ -6,43 +6,56 @@
     android:background="#ff3eaff9"
     android:paddingLeft="16dp"
     android:paddingRight="16dp">
+
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="280dp"
-        android:orientation="vertical"
-        android:padding="16dp"
-        android:gravity="center"
+        android:layout_width="366dp"
+        android:layout_height="407dp"
         android:layout_centerInParent="true"
-        android:background="#ffffffff">
+        android:background="#ffffffff"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Authentication"
-            android:textSize="24sp"
+            android:layout_marginBottom="16dp"
+            android:text="Register"
             android:textColor="#ff3eaff9"
-            android:layout_marginBottom="16dp"/>
+            android:textSize="24sp" />
+
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="16dp"
             android:id="@+id/username"
-            android:hint="Username"/>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:padding="16dp" />
+
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="16dp"
             android:id="@+id/password"
-            android:inputType="textPassword"
-            android:hint="Password"/>
-        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="16dp" />
+
+        <EditText
+            android:id="@+id/confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Comfirm Password"
+            android:inputType="textPassword"
+            android:padding="16dp" />
+
+        <Button
             android:id="@+id/button_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:background="#ff3eaff9"
+            android:text="Register"
             android:textColor="#ffffff"
-            android:text="login"
-            android:textSize="18sp"
-            android:layout_marginTop="16dp"/>
+            android:textSize="18sp" />
     </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
