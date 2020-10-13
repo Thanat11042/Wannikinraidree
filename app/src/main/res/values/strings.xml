@@ -1,3 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">DevahoyLogin</string>
+    <string name="login_title">Devahoy</string>
+    <string name="username_title">Username</string>
+    <string name="password_title">Password</string>
+    <string name="button_login">Login</string>
+    <string name="register">New User? Register here</string>
+    <string name="login_error_message">Username or Password is incorrect.</string>
 </resources>
