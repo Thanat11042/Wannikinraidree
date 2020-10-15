@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DevahoyLogin</string>
-    <string name="login_title">Devahoy</string>
+    <string name="app_name">Wannikinaraidee</string>
+    <string name="login_title">Wannikinaraidee</string>
     <string name="username_title">Username</string>
     <string name="password_title">Password</string>
     <string name="button_login">Login</string>
@@ -14,6 +14,6 @@
     <string name="register_password_error">Password does not match</string>
     <string name="register_success">Register Successful</string>
 
-    <string name="welcome_message">Welcome to Devahoy</string>
+    <string name="welcome_message">Welcome to Wannikinaraidee</string>
 
 </resources>

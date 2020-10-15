@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class LogoutActivity extends AppCompatActivity {
 
-    private static AppState singleInstance;
+    /*private static AppState singleInstance;
     private boolean isLoggingOut;
     private AppState() {
     }
@@ -40,6 +40,6 @@ public class LogoutActivity extends AppCompatActivity {
             startActivity(intent);
 
         }
-    });
+    });*/
 
 }

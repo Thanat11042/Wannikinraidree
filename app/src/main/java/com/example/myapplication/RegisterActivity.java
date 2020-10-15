@@ -1,10 +1,12 @@
 package com.example.myapplication;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,9 +16,9 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText mPassword;
     private EditText mConfirmPassword;
     private Button mRegister;
-
     private Context mContext;
     private UserManager mManager;
+    private TextView mLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +50,14 @@ public class RegisterActivity extends AppCompatActivity {
                     String message = getString(R.string.register_password_error);
                     Toast.makeText(mContext, message, Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+        mLogin = (TextView) findViewById(R.id.login);
+        mLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(mContext, LoginActivity.class);
+                startActivity(intent);
             }
         });
     }
