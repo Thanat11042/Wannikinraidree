@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.csutcc.wannikinaraidee;
 
 import android.content.Context;
 import android.content.Intent;

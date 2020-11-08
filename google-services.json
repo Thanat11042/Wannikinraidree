@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "473411099525",
+    "firebase_url": "https://wannikinaraidee.firebaseio.com",
+    "project_id": "wannikinaraidee",
+    "storage_bucket": "wannikinaraidee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473411099525:android:2fa0b5914a52f6e46602ec",
+        "android_client_info": {
+          "package_name": "com.csutcc.wanni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473411099525-28amqte9flfvtqc5eec55gg1dt6gr4q4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6O_0ZWhvcxJ8lHMn2tbsJszcHdWCwYP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473411099525-28amqte9flfvtqc5eec55gg1dt6gr4q4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473411099525:android:f0450be5d8631a2f6602ec",
+        "android_client_info": {
+          "package_name": "com.csutcc.wannikinaraidee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473411099525-28amqte9flfvtqc5eec55gg1dt6gr4q4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6O_0ZWhvcxJ8lHMn2tbsJszcHdWCwYP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473411099525-28amqte9flfvtqc5eec55gg1dt6gr4q4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

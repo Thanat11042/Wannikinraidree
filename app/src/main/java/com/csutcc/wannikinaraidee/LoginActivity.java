@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.csutcc.wannikinaraidee;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class LoginActivity extends AppCompatActivity {
+public class  LoginActivity extends AppCompatActivity {
 
     private UserManager mManager;
     private Button mLogin;

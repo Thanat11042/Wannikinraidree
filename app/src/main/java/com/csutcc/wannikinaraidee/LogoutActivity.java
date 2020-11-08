@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.csutcc.wannikinaraidee;
 
 import androidx.appcompat.app.AppCompatActivity;
 
