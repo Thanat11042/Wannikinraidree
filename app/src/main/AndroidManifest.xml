@@ -23,5 +23,9 @@
             android:label="@string/app_name"/>
         <activity android:name="com.csutcc.wannikinaraidee.MainActivity"
             android:label="@string/app_name" />
+        <activity android:name="com.csutcc.wannikinaraidee.SignupScreen"
+            android:label="@string/app_name" />
+        <activity android:name="com.csutcc.wannikinaraidee.A03_TabMenu.TabMenu"
+            android:label="@string/app_name" />
     </application>
 </manifest>
