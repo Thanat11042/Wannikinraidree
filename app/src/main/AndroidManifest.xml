@@ -10,7 +10,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="com.csutcc.wannikinaraidee.LoginActivity"
+            android:name="com.csutcc.wannikinaraidee.SigninScreen"
             android:label="@string/app_name">
 
             <intent-filter>

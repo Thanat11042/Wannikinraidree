@@ -8,6 +8,35 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:473411099525:android:75d63844c7b7eb376602ec",
+        "android_client_info": {
+          "package_name": "com.csutcc.Wannikinraidee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473411099525-28amqte9flfvtqc5eec55gg1dt6gr4q4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6O_0ZWhvcxJ8lHMn2tbsJszcHdWCwYP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473411099525-28amqte9flfvtqc5eec55gg1dt6gr4q4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:473411099525:android:2fa0b5914a52f6e46602ec",
         "android_client_info": {
           "package_name": "com.csutcc.wanni"

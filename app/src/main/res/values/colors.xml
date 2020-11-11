@@ -3,4 +3,9 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="textfalse">#D5D4D4</color>
+
+    <color name="texttrue">#D3D3D3</color>
+
+    <color name="colorRouteLine">#FF4081</color>
 </resources>
