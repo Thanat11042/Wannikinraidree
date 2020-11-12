@@ -16,4 +16,13 @@
 
     <string name="welcome_message">Welcome to Wannikinaraidee</string>
 
+    <string name="title_activity_tab_menu"></string>
+    <string name="title_activity_restaurant_list"></string>
+    <string name="title_activity_restaurant_listview"></string>
+    <string name="title_activity_order_history"></string>
+    <string name="title_activity_favorite"></string>
+    <string name="title_activity_notification"></string>
+    <string name="title_activity_all_category"></string>
+    <string name="title_activity_reviews"></string>
+    <string name="title_activity_payment_method"></string>
 </resources>

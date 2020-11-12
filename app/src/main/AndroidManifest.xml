@@ -26,6 +26,20 @@
         <activity android:name="com.csutcc.wannikinaraidee.SignupScreen"
             android:label="@string/app_name" />
         <activity android:name="com.csutcc.wannikinaraidee.A03_TabMenu.TabMenu"
-            android:label="@string/app_name" />
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".A08_BookTable.BookTable" />
+        <activity android:name=".A07_RestaurantDetail.RestaurantDetailView" />
+        <activity
+            android:name=".A06_RestaurantList.RestaurantListview"
+            android:label="@string/title_activity_restaurant_listview"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".A05_HomeCategory.HomeCategory"
+            android:label="@string/title_activity_restaurant_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDFNnP_L1EQ2Sd4QHSRFH6gfn_XnwoSwFw" />
     </application>
 </manifest>
