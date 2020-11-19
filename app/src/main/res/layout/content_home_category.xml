@@ -8,7 +8,7 @@
     tools:context=".A03_TabMenu.TabMenu"
     tools:showIn="@layout/a05_home_category">
 
-    <android.support.design.widget.TabLayout
+    <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,7 +19,7 @@
         app:tabSelectedTextColor="#313131"
         app:tabGravity="fill"/>
 
-    <androidx.core.view.ViewPager
+    <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewpager"
         android:layout_above="@+id/rela"
         android:layout_width="match_parent"

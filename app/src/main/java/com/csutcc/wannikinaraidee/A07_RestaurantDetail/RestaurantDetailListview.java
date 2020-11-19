@@ -1,4 +1,4 @@
-package com.example.menu.A07_RestaurantDetail;
+package com.csutcc.wannikinaraidee.A07_RestaurantDetail;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,7 +8,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.menu.R;
+import com.csutcc.wannikinaraidee.R;
+
 
 public class RestaurantDetailListview extends BaseAdapter {
 

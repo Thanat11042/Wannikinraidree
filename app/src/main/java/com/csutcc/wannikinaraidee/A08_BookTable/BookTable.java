@@ -10,8 +10,9 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.csutcc.wannikinaraidee.A07_RestaurantDetail.RestaurantDetailListview;
 import com.csutcc.wannikinaraidee.R;
-import com.example.menu.A07_RestaurantDetail.RestaurantDetailListview;
+
 
 import org.angmarch.views.NiceSpinner;
 import java.util.Arrays;
