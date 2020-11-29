@@ -18,7 +18,6 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 
-
 public class RestaurantDetailView extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;

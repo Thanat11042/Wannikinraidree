@@ -1,7 +1,5 @@
 package com.csutcc.wannikinaraidee.A08_BookTable;
 
-import android.graphics.Color;
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -10,11 +8,13 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.csutcc.wannikinaraidee.A07_RestaurantDetail.RestaurantDetailListview;
 import com.csutcc.wannikinaraidee.R;
 
-
 import org.angmarch.views.NiceSpinner;
+
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
